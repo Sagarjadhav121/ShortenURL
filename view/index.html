@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:2%;padding: 0;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(164, 245, 254);
+        }
+        header{
+            justify-content: center;
+        text-align: center;
+        width: 100%;
+        display: flex;
+        }
+        input{height:5%}
+        .shortUrl {
+            width:250px;
+            padding:5px;
+        }
+        button {
+            background-color: rgb(42, 243, 42);
+            color: #000;
+            font-size: 1rem;
+            letter-spacing: .5px;
+            line-height:18px;
+            padding: 16px 24px;
+            text-align: center;
+            border-radius: 5px;
+        }
+    </style>
+    <script type="text/javascript" src="./mis.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>URL Shortening Service</h1>
+    </header>
+    <section>
+        <span>Enter URL :</span><input type="text" id="mainUrl"></input>
+        <br>
+        <span>Shorten URL :</span><span class="shortUrl"></span>
+        <br>
+        <button class="getURL">Get Shoten URL</button>
+    </section>
+</body>
+</html>
